@@ -1,0 +1,14 @@
+Entity Named Recognition (NER) is a fundamental Natural Language Processing (NLP) task focused on identifying and classifying entities, such as names of people, organizations, locations, dates within a given text.
+The process involves several key steps:
+1.Text Processing: Clean and prepare the raw text data for analysis by removing irrelevant information ,standardizing formats and correct spelling errors.
+2.Tokenization: Break the text into individual words or tokens .This step is necessary for analyzing the structure of the text.
+3.Part-of-Speech Tagging: Assign grammatical parts of speech (e.g., noun, verb, adjective) to each token. This step helps in understanding the syntactic structure of the text.
+4.Feature Extraction: Extract relevant features from the text such as, word embeddings to represent the context of each token.
+5.Named Entity Recognition Model: Employ a machine learning model (often based on deep learning techniques) to predict and identify named entities in the text, learning from annotated data.
+6.Entity Classification: Categorize recognized entities into predefined classes, such as persons, organizations, locations. This step assigns a specific label to each identified entity.
+7.Post-processing: Refine and improve the results by considering contextual information and resolving ambiguities. Post-processing techniques may include rule-based methods or additional machine learning models.
+8.Evaluation: Assess the performance using metrics like precision, recall, and F1 score to ensure accuracy.
+9.Integration: When entity information is required, integrate the NER system into a larger NLP pipeline or application. Systems for summarizing information, answering queries, and retrieving data fall under this category.
+10.Fine-tuning (Optional): Fine-tune the NER model on domain-specific data if necessary. This step is important when working with specialized or industry-specific texts.
+Entity Named Recognition is a critical component in various NLP applications, providing a structured understanding of text by identifying and classifying entities, enabling more advanced language understanding
+and information extraction.
